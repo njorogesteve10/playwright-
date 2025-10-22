@@ -1,0 +1,15 @@
+POST API Response : {
+  "bookingid": 1648,
+  "booking": {
+    "firstname": "Charley",
+    "lastname": "Lindgren",
+    "totalprice": 7135,
+    "depositpaid": true,
+    "bookingdates": {
+      "checkin": "2025-01-25",
+      "checkout": "2025-01-27"
+    },
+    "additionalneeds": "breakfast"
+  }
+}
+result from get is{"firstname":"Charley","lastname":"Lindgren","totalprice":7135,"depositpaid":true,"bookingdates":{"checkin":"2025-01-25","checkout":"2025-01-27"},"additionalneeds":"breakfast"}

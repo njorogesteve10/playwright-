@@ -1,0 +1,15 @@
+POST API Response : {
+  "bookingid": 3216,
+  "booking": {
+    "firstname": "Cleta",
+    "lastname": "Morissette",
+    "totalprice": 5546,
+    "depositpaid": true,
+    "bookingdates": {
+      "checkin": "2025-01-25",
+      "checkout": "2025-01-27"
+    },
+    "additionalneeds": "breakfast"
+  }
+}
+your token is here baby{"token":"3a5e136929552f6"}

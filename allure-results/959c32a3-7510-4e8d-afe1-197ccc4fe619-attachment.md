@@ -1,0 +1,56 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - navigation [ref=e3]:
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - link "Gmail" [ref=e8] [cursor=pointer]:
+          - /url: https://mail.google.com/mail/&ogbl
+        - link "Tafuta Picha" [ref=e10] [cursor=pointer]:
+          - /url: https://www.google.com/imghp?hl=sw&ogbl
+          - text: Picha
+      - button "Programu za Google" [ref=e13] [cursor=pointer]:
+        - img [ref=e14]
+      - link "Ingia" [ref=e18] [cursor=pointer]:
+        - /url: https://accounts.google.com/ServiceLogin?hl=sw&passive=true&continue=https://www.google.com/&ec=futura_exp_og_so_72776762_e
+  - img "Google" [ref=e21]
+  - search [ref=e29]:
+    - generic [ref=e31]:
+      - generic [ref=e33]:
+        - img [ref=e37]
+        - combobox "Tafuta" [active] [ref=e40]
+        - generic [ref=e43]:
+          - button "Zana za kuingiza" [ref=e44] [cursor=pointer]:
+            - img [ref=e46]
+          - button "Tafuta kwa kutamka" [ref=e48] [cursor=pointer]:
+            - img [ref=e49]
+          - button "Tafuta kwa picha" [ref=e51] [cursor=pointer]:
+            - img [ref=e52]
+      - generic [ref=e55]:
+        - button "Tafuta na Google" [ref=e56] [cursor=pointer]
+        - button "Ninajihisi Mwenye Bahati" [ref=e57] [cursor=pointer]
+  - generic [ref=e60]:
+    - text: "Google inapatikana katika:"
+    - link "English" [ref=e61] [cursor=pointer]:
+      - /url: https://www.google.com/setprefs?sig=0_QnLpus1ifJ-KuCFeTV9PCHr70Hs%3D&hl=en&source=homepage&sa=X&ved=0ahUKEwjjs5C93qWQAxVRWkEAHVc1MBwQ2ZgBCBU
+  - contentinfo [ref=e63]:
+    - generic [ref=e64]: Kenya
+    - generic [ref=e65]:
+      - generic [ref=e66]:
+        - link "Kuhusu Google" [ref=e67] [cursor=pointer]:
+          - /url: https://about.google/?utm_source=google-KE&utm_medium=referral&utm_campaign=hp-footer&fg=1
+        - link "Matangazo" [ref=e68] [cursor=pointer]:
+          - /url: https://www.google.com/intl/sw_ke/ads/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1
+        - link "Biashara" [ref=e69] [cursor=pointer]:
+          - /url: https://www.google.com/services/?subid=ww-ww-et-g-awa-a-g_hpbfoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpbfooter&fg=1
+        - link "Jinsi huduma ya Tafuta inavyofanya kazi" [ref=e70] [cursor=pointer]:
+          - /url: https://google.com/search/howsearchworks/?fg=1
+      - generic [ref=e71]:
+        - link "Faragha" [ref=e72] [cursor=pointer]:
+          - /url: https://policies.google.com/privacy?hl=sw-KE&fg=1
+        - link "Masharti" [ref=e73] [cursor=pointer]:
+          - /url: https://policies.google.com/terms?hl=sw-KE&fg=1
+        - button "Mipangilio" [ref=e77] [cursor=pointer]:
+          - generic [ref=e78]: Mipangilio
+```

@@ -1,0 +1,31 @@
+POST API Response: {
+  "bookingid": 2046,
+  "booking": {
+    "firstname": "Hudson",
+    "lastname": "Cummerata",
+    "totalprice": 3251,
+    "depositpaid": true,
+    "bookingdates": {
+      "checkin": "2025-01-25",
+      "checkout": "2025-01-27"
+    },
+    "additionalneeds": "breakfast"
+  }
+}
+Your token is: {"token":"07bf0a6ad560874"}
+Sending PATCH data: {
+  "firstname": "UpdatedFirst",
+  "lastname": "UpdatedLast"
+}
+PATCH API Response: {
+  "firstname": "UpdatedFirst",
+  "lastname": "UpdatedLast",
+  "totalprice": 3251,
+  "depositpaid": true,
+  "bookingdates": {
+    "checkin": "2025-01-25",
+    "checkout": "2025-01-27"
+  },
+  "additionalneeds": "breakfast"
+}
+DELETE API Response : Created

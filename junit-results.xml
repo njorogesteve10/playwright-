@@ -1,0 +1,15 @@
+<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="12.115110000000001">
+<testsuite name="chapter6\harmovk.spec.ts" timestamp="2025-10-22T00:10:23.465Z" hostname="chromium" tests="1" failures="0" skipped="0" time="4.171" errors="0">
+<testcase name="har recording and mocking" classname="chapter6\harmovk.spec.ts" time="4.171">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|test-results\chapter6-harmovk-har-recording-and-mocking-chromium\test-finished-1.png]]
+
+[[ATTACHMENT|test-results\chapter6-harmovk-har-recording-and-mocking-chromium\video.webm]]
+
+[[ATTACHMENT|test-results\chapter6-harmovk-har-recording-and-mocking-chromium\trace.zip]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+</testsuites>

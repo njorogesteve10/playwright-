@@ -1,0 +1,14 @@
+Faker-based API response: {
+  "bookingid": 10405,
+  "booking": {
+    "firstname": "Marisa",
+    "lastname": "Paucek",
+    "totalprice": 9674,
+    "depositpaid": true,
+    "bookingdates": {
+      "checkin": "2025-01-15",
+      "checkout": "2025-01-17"
+    },
+    "additionalneeds": "breakfast"
+  }
+}

@@ -1,0 +1,760 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - heading "Viungo vya zana za walio na matatizo ya kuona au kusikia" [level=1] [ref=e2]
+  - generic:
+    - generic:
+      - link "Nenda kwenye maudhui makuu" [ref=e3] [cursor=pointer]
+      - link "Usaidizi wa zana za walio na matatizo ya kuona au kusikia" [ref=e4] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=sw-KE
+      - link "Maoni kuhusu ufikivu" [ref=e5] [cursor=pointer]
+  - generic [ref=e8]:
+    - search [ref=e9]:
+      - generic [ref=e11]:
+        - link "Nenda kwenye Ukurasa wa Kwanza wa Google" [ref=e13] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=sw&sa=X&ved=0ahUKEwjInofqrqiQAxWkA7kGHSifDSQQPAgI
+          - img [ref=e14]
+        - generic [ref=e21]:
+          - generic [ref=e22]:
+            - combobox "Tafuta" [ref=e25]: playwright by TestersTalk playwright by TestersTalk
+            - generic [ref=e26]:
+              - button "Futa" [ref=e28] [cursor=pointer]:
+                - img [ref=e30]
+              - generic [ref=e33]:
+                - button "Zana za kuingiza" [ref=e34] [cursor=pointer]:
+                  - img [ref=e36]
+                - button "Tafuta kwa kutamka" [ref=e38] [cursor=pointer]:
+                  - img [ref=e39]
+                - button "Tafuta kwa picha" [ref=e41] [cursor=pointer]:
+                  - img [ref=e42]
+          - button "Tafuta" [ref=e44] [cursor=pointer]:
+            - img [ref=e47]
+    - generic [ref=e49]:
+      - button "Mipangilio" [ref=e51] [cursor=pointer]:
+        - img [ref=e54]
+      - generic [ref=e57]:
+        - button "Programu za Google" [ref=e59] [cursor=pointer]:
+          - img [ref=e60]
+        - link "Ingia" [ref=e64] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=sw&passive=true&continue=https://www.google.com/search%3Fq%3Dplaywright%2Bby%2BTestersTalk%26sca_esv%3Dbdbe2dd8fffd653b%26source%3Dhp%26ei%3DJrXwaKDiE8fj7M8Poe3d2Q8%26iflsig%3DAOw8s4IAAAAAaPDDNpq41F8bvTyBtqpDP6wEv7gJUWvT%26ved%3D0ahUKEwigjYDBrqiQAxXHMfsDHaF2N_sQ4dUDCA0%26uact%3D5%26oq%3Dplaywright%2Bby%2BTestersTalk%26gs_lp%3DEgdnd3Mtd2l6IhlwbGF5d3JpZ2h0IGJ5IFRlc3RlcnNUYWxrSMkCUP8BWP8BcAF4AJABAJgBAKABAKoBALgBA8gBAPgBAZgCAKACAKgCAJgDBfEFJ33g-0JG_diSBwCgBwCyBwC4BwDCBwDIBwA%26sclient%3Dgws-wiz%26sg_ss%3D*uYWahd3yAAZWdKBadnR96mFEw6iI6uAEADQBEArZ1Nyu9Yuk21JkOQEf4k7VpNCgbjGeVnVDWMG1pamkQ330mGjGjm9pZRZhOJwmv4O0PQAAAHRtAAAAG1cBB0EANUXYK-E1dqPY6wiikGC-KQ_dqgwQtwaXGllPb6f1psVK28YtCPoJoaTNIuv6SZr7G0l-F1GGNQDjIiCPPCCaSG0Oxm35woOIVQ9TOMrhS8HghKFDAqY4dgxUw0IPZ4vHclB9feq0uolhZpuObc66Fdnwoq19ulHCYPWkmWcx5uO8d8p-UQXh8vnjev0fhzR1cTKYne-_eT8J-WbZDlJja90Ed8hzJv0aD5K9N6Soao3sAz5Zvah9oi9vURc_56XdAvet6qDfXlO0wjNug0X769eyOv3Zo5eKnokSz9UjY7BY8h0eriHJDTm468lP-zoAVg2oyUqnzAVwArIQhHXhxEAPPgTXN0ceHe1lERW6RG_O2GmOCjTfZxwUkd2mAjH2SOPeP0lJovc8sMyE4JsaaTIBouLhblcb0k9nIUXomQwqn_rWi192zLOr343_rXV80ciU5BH3mIR5lRdt8me6EpeWOLAIe6oDWnApbPOVlP1YT_7O647N44GXBWYsYwod_tA3AALaUSmd4cRagAJUmra3aWBDsIEi20ESgpPvxe2wcqn-Oh03PhRqToYw_nzBTUQtn_EDxyFzliaDeKbgwKmU2Qo-BA-_SEgbLrnk6Lg8fiFKAcbW4hh3zeWJ6-xc5lIHDctx2golWocZhO2eF4nEtfHyG9rFpppj7JNrJDUw-7B3dHo30zHnUAjXIVF23eXoVeyMFhyh0pnK1QZ8M9_FQPzZXbfgrcoIilS7i6l2PeX4VWyScZRdXsZ-Ue5yN1X-AW0482ACwrXvgC9cF2Sj-TvQnjiOyozwx7PyxCi2KFb9dZkX1gaRrtZ4y50RPSnmPvjccM34iRn_KR8j-czQeIvBKN2YuqY6hx7_VOcikXAhc3qCANTFl8bm5aDT_vTRYoyWZZ0lcdW78uyOvc7exivSvU5MoMUIXI6gg5TFa-HT2K4brGFzncqrqwzQow9qSgHkLw8OKxRTvUw_8JZNqbikAd_OWRX_qKhWbWmxPo5u3-nsGP6rdaCim7qZW4lAYDEvRUMbrKdjeIP7AAePn_DjsHyq0TvNnBSfYp8sIP-tUU6G4J1Vg9YeUVC-OjGi7YdjVYf78vb_q1_In_FiX8gxTQgoJoD2BZqPl1g%26sei%3DcrXwaKO3Np7E5OUPyLWv0QU&ec=futura_srp_og_si_72236_p
+  - generic [ref=e66]:
+    - generic [ref=e71]:
+      - heading "Vichujio na Mada" [level=1] [ref=e72]
+      - navigation [ref=e73]:
+        - generic [ref=e77]:
+          - list [ref=e78]:
+            - listitem [ref=e79]:
+              - link "Zote" [disabled] [ref=e80]:
+                - generic [ref=e82]: Zote
+            - listitem [ref=e83]:
+              - link "Video" [ref=e84] [cursor=pointer]:
+                - /url: /search?sca_esv=bdbe2dd8fffd653b&udm=7&fbs=AIIjpHxzJZcW_VWIorVe7sz3OSl9YB0lRsopAsvxUHljJAikuHe9f_egi4MH7oJexZdTygCA7eqOy4eG1FImARAZR46CHl7v5n_YzlpZZxRi9dpkEWWymhoicIYL5n81D_GKmRq7GIDt_JWRmfSxc9j4tFxCBYrxScmZRoOGbdonDpZyG1hE-HHl1EQan3eWSMR9cLp0a5Nq&q=playwright+by+Testers+Talk&sa=X&ved=2ahUKEwjInofqrqiQAxWkA7kGHSifDSQQtKgLegQIFRAB
+                - generic [ref=e86]: Video
+            - listitem [ref=e87]:
+              - link "Video fupi" [ref=e88] [cursor=pointer]:
+                - /url: /search?sca_esv=bdbe2dd8fffd653b&udm=39&fbs=AIIjpHxzJZcW_VWIorVe7sz3OSl9YB0lRsopAsvxUHljJAikuHe9f_egi4MH7oJexZdTygCA7eqOy4eG1FImARAZR46CHl7v5n_YzlpZZxRi9dpkEWWymhoicIYL5n81D_GKmRq7GIDt_JWRmfSxc9j4tFxCBYrxScmZRoOGbdonDpZyG1hE-HHl1EQan3eWSMR9cLp0a5Nq&q=playwright+by+Testers+Talk&sa=X&ved=2ahUKEwjInofqrqiQAxWkA7kGHSifDSQQs6gLegQIFBAB
+                - generic [ref=e90]: Video fupi
+            - listitem [ref=e91]:
+              - link "Picha" [ref=e92] [cursor=pointer]:
+                - /url: /search?sca_esv=bdbe2dd8fffd653b&udm=2&fbs=AIIjpHxzJZcW_VWIorVe7sz3OSl9YB0lRsopAsvxUHljJAikuHe9f_egi4MH7oJexZdTygCA7eqOy4eG1FImARAZR46CHl7v5n_YzlpZZxRi9dpkEWWymhoicIYL5n81D_GKmRq7GIDt_JWRmfSxc9j4tFxCBYrxScmZRoOGbdonDpZyG1hE-HHl1EQan3eWSMR9cLp0a5Nq&q=playwright+by+Testers+Talk&sa=X&ved=2ahUKEwjInofqrqiQAxWkA7kGHSifDSQQtKgLegQIExAB
+                - generic [ref=e94]: Picha
+            - listitem [ref=e95]:
+              - link "Wavuti" [ref=e96] [cursor=pointer]:
+                - /url: /search?sca_esv=bdbe2dd8fffd653b&udm=14&fbs=AIIjpHxzJZcW_VWIorVe7sz3OSl9YB0lRsopAsvxUHljJAikuHe9f_egi4MH7oJexZdTygCA7eqOy4eG1FImARAZR46CHl7v5n_YzlpZZxRi9dpkEWWymhoicIYL5n81D_GKmRq7GIDt_JWRmfSxc9j4tFxCBYrxScmZRoOGbdonDpZyG1hE-HHl1EQan3eWSMR9cLp0a5Nq&q=playwright+by+Testers+Talk&sa=X&ved=2ahUKEwjInofqrqiQAxWkA7kGHSifDSQQs6gLegQIEhAB
+                - generic [ref=e98]: Wavuti
+            - listitem [ref=e99]:
+              - link "Vitabu" [ref=e100] [cursor=pointer]:
+                - /url: /search?sca_esv=bdbe2dd8fffd653b&q=playwright+by+Testers+Talk&udm=36&source=lnms&fbs=AIIjpHxzJZcW_VWIorVe7sz3OSl9YB0lRsopAsvxUHljJAikuHe9f_egi4MH7oJexZdTygCA7eqOy4eG1FImARAZR46CHl7v5n_YzlpZZxRi9dpkEWWymhoicIYL5n81D_GKmRq7GIDt_JWRmfSxc9j4tFxCBYrxScmZRoOGbdonDpZyG1hE-HHl1EQan3eWSMR9cLp0a5Nq&sa=X&ved=2ahUKEwjInofqrqiQAxWkA7kGHSifDSQQ0pQJegQIEBAB
+                - generic [ref=e102]: Vitabu
+            - listitem [ref=e103]:
+              - link "Ramani" [ref=e104] [cursor=pointer]:
+                - /url: https://maps.google.com/maps?sca_esv=bdbe2dd8fffd653b&output=search&q=playwright+by+Testers+Talk&source=lnms&fbs=AIIjpHxzJZcW_VWIorVe7sz3OSl9YB0lRsopAsvxUHljJAikuHe9f_egi4MH7oJexZdTygCA7eqOy4eG1FImARAZR46CHl7v5n_YzlpZZxRi9dpkEWWymhoicIYL5n81D_GKmRq7GIDt_JWRmfSxc9j4tFxCBYrxScmZRoOGbdonDpZyG1hE-HHl1EQan3eWSMR9cLp0a5Nq&entry=mc&ved=1t:200715&ictx=111
+                - generic [ref=e106]: Ramani
+            - listitem [ref=e107]:
+              - button "Vichujio zaidi" [ref=e108] [cursor=pointer]:
+                - generic "Vichujio zaidi" [ref=e109]:
+                  - generic [ref=e110]:
+                    - generic [ref=e111]: Mengineyo
+                    - img [ref=e113]
+          - button "Zana" [ref=e116] [cursor=pointer]:
+            - generic [ref=e118]:
+              - generic [ref=e119]: Zana
+              - img [ref=e121]
+    - generic [ref=e129]:
+      - generic [ref=e130]: Looking for results in English?
+      - link [ref=e131] [cursor=pointer]:
+        - /url: "#"
+        - img [ref=e133]
+      - link "Change to English" [ref=e135] [cursor=pointer]:
+        - /url: /setprefs?sig=0_1B55aefMKtTRb8H0_u3xw8qgvVY%3D&source=en_ignored_notification&prev=https://www.google.com/search?q%3Dplaywright%2Bby%2BTestersTalk%26sca_esv%3Dbdbe2dd8fffd653b%26source%3Dhp%26ei%3DJrXwaKDiE8fj7M8Poe3d2Q8%26iflsig%3DAOw8s4IAAAAAaPDDNpq41F8bvTyBtqpDP6wEv7gJUWvT%26ved%3D0ahUKEwigjYDBrqiQAxXHMfsDHaF2N_sQ4dUDCA0%26uact%3D5%26oq%3Dplaywright%2Bby%2BTestersTalk%26gs_lp%3DEgdnd3Mtd2l6IhlwbGF5d3JpZ2h0IGJ5IFRlc3RlcnNUYWxrSMkCUP8BWP8BcAF4AJABAJgBAKABAKoBALgBA8gBAPgBAZgCAKACAKgCAJgDBfEFJ33g-0JG_diSBwCgBwCyBwC4BwDCBwDIBwA%26sclient%3Dgws-wiz%26sg_ss%3D*uYWahd3yAAZWdKBadnR96mFEw6iI6uAEADQBEArZ1Nyu9Yuk21JkOQEf4k7VpNCgbjGeVnVDWMG1pamkQ330mGjGjm9pZRZhOJwmv4O0PQAAAHRtAAAAG1cBB0EANUXYK-E1dqPY6wiikGC-KQ_dqgwQtwaXGllPb6f1psVK28YtCPoJoaTNIuv6SZr7G0l-F1GGNQDjIiCPPCCaSG0Oxm35woOIVQ9TOMrhS8HghKFDAqY4dgxUw0IPZ4vHclB9feq0uolhZpuObc66Fdnwoq19ulHCYPWkmWcx5uO8d8p-UQXh8vnjev0fhzR1cTKYne-_eT8J-WbZDlJja90Ed8hzJv0aD5K9N6Soao3sAz5Zvah9oi9vURc_56XdAvet6qDfXlO0wjNug0X769eyOv3Zo5eKnokSz9UjY7BY8h0eriHJDTm468lP-zoAVg2oyUqnzAVwArIQhHXhxEAPPgTXN0ceHe1lERW6RG_O2GmOCjTfZxwUkd2mAjH2SOPeP0lJovc8sMyE4JsaaTIBouLhblcb0k9nIUXomQwqn_rWi192zLOr343_rXV80ciU5BH3mIR5lRdt8me6EpeWOLAIe6oDWnApbPOVlP1YT_7O647N44GXBWYsYwod_tA3AALaUSmd4cRagAJUmra3aWBDsIEi20ESgpPvxe2wcqn-Oh03PhRqToYw_nzBTUQtn_EDxyFzliaDeKbgwKmU2Qo-BA-_SEgbLrnk6Lg8fiFKAcbW4hh3zeWJ6-xc5lIHDctx2golWocZhO2eF4nEtfHyG9rFpppj7JNrJDUw-7B3dHo30zHnUAjXIVF23eXoVeyMFhyh0pnK1QZ8M9_FQPzZXbfgrcoIilS7i6l2PeX4VWyScZRdXsZ-Ue5yN1X-AW0482ACwrXvgC9cF2Sj-TvQnjiOyozwx7PyxCi2KFb9dZkX1gaRrtZ4y50RPSnmPvjccM34iRn_KR8j-czQeIvBKN2YuqY6hx7_VOcikXAhc3qCANTFl8bm5aDT_vTRYoyWZZ0lcdW78uyOvc7exivSvU5MoMUIXI6gg5TFa-HT2K4brGFzncqrqwzQow9qSgHkLw8OKxRTvUw_8JZNqbikAd_OWRX_qKhWbWmxPo5u3-nsGP6rdaCim7qZW4lAYDEvRUMbrKdjeIP7AAePn_DjsHyq0TvNnBSfYp8sIP-tUU6G4J1Vg9YeUVC-OjGi7YdjVYf78vb_q1_In_FiX8gxTQgoJoD2BZqPl1g%26sei%3DcrXwaKO3Np7E5OUPyLWv0QU&hl=en&sa=X&ved=2ahUKEwjInofqrqiQAxWkA7kGHSifDSQQhoQCKAF6BAgMEAQ
+      - link "Salia katika Kiswahili" [ref=e136] [cursor=pointer]:
+        - /url: "#"
+      - link "Mipangilio ya lugha" [ref=e138] [cursor=pointer]:
+        - /url: /preferences?lang=1&hl=sw-KE&sa=X&ved=2ahUKEwjInofqrqiQAxWkA7kGHSifDSQQiIQCKAN6BAgMEAY#languages
+    - main [ref=e140]:
+      - heading "Inaonyesha matokeo ya playwright by Testers Talk Badala yake tafuta ya playwright by TestersTalk" [level=2] [ref=e144]:
+        - text: Inaonyesha matokeo ya
+        - button "playwright by Testers Talk" [ref=e145] [cursor=pointer]:
+          - text: playwright by
+          - generic [ref=e146]: Testers Talk
+        - generic [ref=e147]:
+          - text: Badala yake tafuta ya
+          - button "playwright by TestersTalk" [ref=e148] [cursor=pointer]
+      - generic [ref=e151]:
+        - heading "Matokeo ya Utafutaji" [level=1] [ref=e152]
+        - generic [ref=e153]:
+          - generic [ref=e157]:
+            - generic [ref=e159]:
+              - heading "Video" [level=2] [ref=e160]
+              - button "Kuhusu matokeo haya yanayohusiana na Video" [ref=e161] [cursor=pointer]:
+                - img [ref=e164]
+            - generic [ref=e167]:
+              - generic [ref=e173]:
+                - generic [ref=e174]:
+                  - button "#1 Playwright Tutorial Full Course 2024 | Playwright Testing ... ya Testers Talk kwenye YouTube. Cheza kwenye Google. 6:55:08" [ref=e175] [cursor=pointer]:
+                    - generic [ref=e176]:
+                      - img [ref=e183]
+                      - generic [ref=e186]:
+                        - generic [ref=e187]: 6:55:08
+                        - img [ref=e190]
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - text: YouTube
+                                  - generic: · Testers Talk
+                        - button "Kuhusu tokeo hili" [ref=e192] [cursor=pointer]:
+                          - img [ref=e195]
+                  - link "#1 Playwright Tutorial Full Course 2024 | Playwright Testing ... YouTube Testers Talk 8 Jan 2024" [ref=e198] [cursor=pointer]:
+                    - /url: https://www.youtube.com/watch?v=2poXBtifpzA
+                    - heading "#1 Playwright Tutorial Full Course 2024 | Playwright Testing ... YouTube Testers Talk 8 Jan 2024" [level=3] [ref=e199]:
+                      - generic [ref=e202]: "#1 Playwright Tutorial Full Course 2024 | Playwright Testing ..."
+                      - generic [ref=e206]:
+                        - generic [ref=e207]:
+                          - text: YouTube
+                          - generic [ref=e208]: · Testers Talk
+                        - generic [ref=e209]: 8 Jan 2024
+                - generic [ref=e213]:
+                  - button "Matukio 25 makuu katika video hii" [expanded] [ref=e214] [cursor=pointer]:
+                    - generic [ref=e217]:
+                      - generic [ref=e220]: Matukio 25 makuu katika video hii
+                      - img [ref=e222]
+                  - generic [ref=e226]:
+                    - list [ref=e228]:
+                      - generic [ref=e229]:
+                        - link "Playwright Tutorial Full Course. 1 kati ya 25, sekunde 0." [ref=e230] [cursor=pointer]:
+                          - /url: https://www.youtube.com/watch?v=2poXBtifpzA&t=0
+                          - generic [ref=e232]:
+                            - generic [ref=e233]:
+                              - text: Kuanzia
+                              - generic [ref=e234]: 00:00
+                            - generic [ref=e235]: Playwright Tutorial Full Course
+                        - link "Playwright architecture. 2 kati ya 25, dakika 8 na sekunde 57." [ref=e236] [cursor=pointer]:
+                          - /url: https://www.youtube.com/watch?v=2poXBtifpzA&t=537
+                          - generic [ref=e238]:
+                            - generic [ref=e239]:
+                              - text: Kuanzia
+                              - generic [ref=e240]: 08:57
+                            - generic [ref=e241]: Playwright architecture
+                        - link "Playwright vs Selenium webdriver. 3 kati ya 25, dakika 17 na sekunde 55." [ref=e242] [cursor=pointer]:
+                          - /url: https://www.youtube.com/watch?v=2poXBtifpzA&t=1075
+                          - generic [ref=e244]:
+                            - generic [ref=e245]:
+                              - text: Kuanzia
+                              - generic [ref=e246]: 17:55
+                            - generic [ref=e247]: Playwright vs Selenium webdriver
+                        - link "Install playwright in vs code. 4 kati ya 25, dakika 28 na sekunde 40." [ref=e248] [cursor=pointer]:
+                          - /url: https://www.youtube.com/watch?v=2poXBtifpzA&t=1720
+                          - generic [ref=e250]:
+                            - generic [ref=e251]:
+                              - text: Kuanzia
+                              - generic [ref=e252]: 28:40
+                            - generic [ref=e253]: Install playwright in vs code
+                        - link "Run playwright test & test explorer. 5 kati ya 25, dakika 36 na sekunde 23." [ref=e254] [cursor=pointer]:
+                          - /url: https://www.youtube.com/watch?v=2poXBtifpzA&t=2183
+                          - generic [ref=e256]:
+                            - generic [ref=e257]:
+                              - text: Kuanzia
+                              - generic [ref=e258]: 36:23
+                            - generic [ref=e259]: Run playwright test & test explorer
+                        - link "Playwright test report. 6 kati ya 25, dakika 56 na sekunde 6." [ref=e260] [cursor=pointer]:
+                          - /url: https://www.youtube.com/watch?v=2poXBtifpzA&t=3366
+                          - generic [ref=e262]:
+                            - generic [ref=e263]:
+                              - text: Kuanzia
+                              - generic [ref=e264]: 56:06
+                            - generic [ref=e265]: Playwright test report
+                        - link "Commonly used keywords in playwright. 7 kati ya 25, saa 1, dakika 6 na sekunde 59." [ref=e266] [cursor=pointer]:
+                          - /url: https://www.youtube.com/watch?v=2poXBtifpzA&t=4019
+                          - generic [ref=e268]:
+                            - generic [ref=e269]:
+                              - text: Kuanzia
+                              - generic [ref=e270]: 01:06:59
+                            - generic [ref=e271]: Commonly used keywords in playwright
+                        - link "Pick locator in playwright. 8 kati ya 25, saa 1, dakika 17 na sekunde 33." [ref=e272] [cursor=pointer]:
+                          - /url: https://www.youtube.com/watch?v=2poXBtifpzA&t=4653
+                          - generic [ref=e274]:
+                            - generic [ref=e275]:
+                              - text: Kuanzia
+                              - generic [ref=e276]: 01:17:33
+                            - generic [ref=e277]: Pick locator in playwright
+                        - link "Run playwright test in headless mode. 9 kati ya 25, saa 1, dakika 28 na sekunde 35." [ref=e278] [cursor=pointer]:
+                          - /url: https://www.youtube.com/watch?v=2poXBtifpzA&t=5315
+                          - generic [ref=e280]:
+                            - generic [ref=e281]:
+                              - text: Kuanzia
+                              - generic [ref=e282]: 01:28:35
+                            - generic [ref=e283]: Run playwright test in headless mode
+                        - link "Run specific spec file in playwright. 10 kati ya 25, saa 1, dakika 39 na sekunde 54." [ref=e284] [cursor=pointer]:
+                          - /url: https://www.youtube.com/watch?v=2poXBtifpzA&t=5994
+                          - generic [ref=e286]:
+                            - generic [ref=e287]:
+                              - text: Kuanzia
+                              - generic [ref=e288]: 01:39:54
+                            - generic [ref=e289]: Run specific spec file in playwright
+                        - link "Playwright locators tutorial. 11 kati ya 25, saa 2, dakika 1 na sekunde 13." [ref=e290] [cursor=pointer]:
+                          - /url: https://www.youtube.com/watch?v=2poXBtifpzA&t=7273
+                          - generic [ref=e292]:
+                            - generic [ref=e293]:
+                              - text: Kuanzia
+                              - generic [ref=e294]: 02:01:13
+                            - generic [ref=e295]: Playwright locators tutorial
+                        - link "Hooks in playwright. 12 kati ya 25, saa 2, dakika 44 na sekunde 49." [ref=e296] [cursor=pointer]:
+                          - /url: https://www.youtube.com/watch?v=2poXBtifpzA&t=9889
+                          - generic [ref=e298]:
+                            - generic [ref=e299]:
+                              - text: Kuanzia
+                              - generic [ref=e300]: 02:44:49
+                            - generic [ref=e301]: Hooks in playwright
+                        - link "Iframes in playwright. 13 kati ya 25, saa 3 na dakika 5." [ref=e302] [cursor=pointer]:
+                          - /url: https://www.youtube.com/watch?v=2poXBtifpzA&t=11100
+                          - generic [ref=e304]:
+                            - generic [ref=e305]:
+                              - text: Kuanzia
+                              - generic [ref=e306]: 03:05:00
+                            - generic [ref=e307]: Iframes in playwright
+                        - link "Mouse actions in playwright. 14 kati ya 25, saa 3, dakika 12 na sekunde 48." [ref=e308] [cursor=pointer]:
+                          - /url: https://www.youtube.com/watch?v=2poXBtifpzA&t=11568
+                          - generic [ref=e310]:
+                            - generic [ref=e311]:
+                              - text: Kuanzia
+                              - generic [ref=e312]: 03:12:48
+                            - generic [ref=e313]: Mouse actions in playwright
+                        - link "Playwright keyboard actions. 15 kati ya 25, saa 3, dakika 23 na sekunde 59." [ref=e314] [cursor=pointer]:
+                          - /url: https://www.youtube.com/watch?v=2poXBtifpzA&t=12239
+                          - generic [ref=e316]:
+                            - generic [ref=e317]:
+                              - text: Kuanzia
+                              - generic [ref=e318]: 03:23:59
+                            - generic [ref=e319]: Playwright keyboard actions
+                        - link "Assertions in playwright. 16 kati ya 25, saa 3, dakika 58 na sekunde 24." [ref=e320] [cursor=pointer]:
+                          - /url: https://www.youtube.com/watch?v=2poXBtifpzA&t=14304
+                          - generic [ref=e322]:
+                            - generic [ref=e323]:
+                              - text: Kuanzia
+                              - generic [ref=e324]: 03:58:24
+                            - generic [ref=e325]: Assertions in playwright
+                        - link "Soft assertion in playwright. 17 kati ya 25, saa 4, dakika 14 na sekunde 42." [ref=e326] [cursor=pointer]:
+                          - /url: https://www.youtube.com/watch?v=2poXBtifpzA&t=15282
+                          - generic [ref=e328]:
+                            - generic [ref=e329]:
+                              - text: Kuanzia
+                              - generic [ref=e330]: 04:14:42
+                            - generic [ref=e331]: Soft assertion in playwright
+                        - link "Playwright Trace Viewer. 18 kati ya 25, saa 4 na dakika 22." [ref=e332] [cursor=pointer]:
+                          - /url: https://www.youtube.com/watch?v=2poXBtifpzA&t=15720
+                          - generic [ref=e334]:
+                            - generic [ref=e335]:
+                              - text: Kuanzia
+                              - generic [ref=e336]: 04:22:00
+                            - generic [ref=e337]: Playwright Trace Viewer
+                        - link "Skip test in playwright. 19 kati ya 25, saa 4, dakika 30 na sekunde 55." [ref=e338] [cursor=pointer]:
+                          - /url: https://www.youtube.com/watch?v=2poXBtifpzA&t=16255
+                          - generic [ref=e340]:
+                            - generic [ref=e341]:
+                              - text: Kuanzia
+                              - generic [ref=e342]: 04:30:55
+                            - generic [ref=e343]: Skip test in playwright
+                        - link "Tag test in playwright. 20 kati ya 25, saa 4, dakika 41 na sekunde 22." [ref=e344] [cursor=pointer]:
+                          - /url: https://www.youtube.com/watch?v=2poXBtifpzA&t=16882
+                          - generic [ref=e346]:
+                            - generic [ref=e347]:
+                              - text: Kuanzia
+                              - generic [ref=e348]: 04:41:22
+                            - generic [ref=e349]: Tag test in playwright
+                        - link "Parallel Testing in playwright. 21 kati ya 25, saa 4, dakika 56 na sekunde 56." [ref=e350] [cursor=pointer]:
+                          - /url: https://www.youtube.com/watch?v=2poXBtifpzA&t=17816
+                          - generic [ref=e352]:
+                            - generic [ref=e353]:
+                              - text: Kuanzia
+                              - generic [ref=e354]: 04:56:56
+                            - generic [ref=e355]: Parallel Testing in playwright
+                        - link "Visual comparison in playwright. 22 kati ya 25, saa 5, dakika 12 na sekunde 48." [ref=e356] [cursor=pointer]:
+                          - /url: https://www.youtube.com/watch?v=2poXBtifpzA&t=18768
+                          - generic [ref=e358]:
+                            - generic [ref=e359]:
+                              - text: Kuanzia
+                              - generic [ref=e360]: 05:12:48
+                            - generic [ref=e361]: Visual comparison in playwright
+                        - link "Data driven testing using JSON in playwright. 23 kati ya 25, saa 5, dakika 34 na sekunde 16." [ref=e362] [cursor=pointer]:
+                          - /url: https://www.youtube.com/watch?v=2poXBtifpzA&t=20056
+                          - generic [ref=e364]:
+                            - generic [ref=e365]:
+                              - text: Kuanzia
+                              - generic [ref=e366]: 05:34:16
+                            - generic [ref=e367]: Data driven testing using JSON in playwright
+                        - link "Run playwright test on different environments. 24 kati ya 25, saa 5, dakika 59 na sekunde 21." [ref=e368] [cursor=pointer]:
+                          - /url: https://www.youtube.com/watch?v=2poXBtifpzA&t=21561
+                          - generic [ref=e370]:
+                            - generic [ref=e371]:
+                              - text: Kuanzia
+                              - generic [ref=e372]: 05:59:21
+                            - generic [ref=e373]: Run playwright test on different environments
+                        - link "Maximize full screen browser in playwright. 25 kati ya 25, saa 6, dakika 52 na sekunde 4." [ref=e374] [cursor=pointer]:
+                          - /url: https://www.youtube.com/watch?v=2poXBtifpzA&t=24724
+                          - generic [ref=e376]:
+                            - generic [ref=e377]:
+                              - text: Kuanzia
+                              - generic [ref=e378]: 06:52:04
+                            - generic [ref=e379]: Maximize full screen browser in playwright
+                    - button [ref=e380] [cursor=pointer]:
+                      - img [ref=e384]
+              - generic [ref=e392]:
+                - generic [ref=e393]:
+                  - button "#1 Playwright Automation Using TypeScript Full Course 2025 ... ya Testers Talk kwenye YouTube. Cheza kwenye Google. 8:55:10" [ref=e394] [cursor=pointer]:
+                    - generic [ref=e395]:
+                      - img [ref=e402]
+                      - generic [ref=e405]:
+                        - generic [ref=e406]: 8:55:10
+                        - img [ref=e409]
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - generic:
+                                  - text: YouTube
+                                  - generic: · Testers Talk
+                        - button "Kuhusu tokeo hili" [ref=e411] [cursor=pointer]:
+                          - img [ref=e414]
+                  - link "#1 Playwright Automation Using TypeScript Full Course 2025 ... YouTube Testers Talk 8 Jan 2025" [ref=e417] [cursor=pointer]:
+                    - /url: https://www.youtube.com/watch?v=788GvvcfwTY
+                    - heading "#1 Playwright Automation Using TypeScript Full Course 2025 ... YouTube Testers Talk 8 Jan 2025" [level=3] [ref=e418]:
+                      - generic [ref=e421]: "#1 Playwright Automation Using TypeScript Full Course 2025 ..."
+                      - generic [ref=e425]:
+                        - generic [ref=e426]:
+                          - text: YouTube
+                          - generic [ref=e427]: · Testers Talk
+                        - generic [ref=e428]: 8 Jan 2025
+                - button "Matukio 25 makuu katika video hii" [ref=e433] [cursor=pointer]:
+                  - generic [ref=e436]:
+                    - generic [ref=e439]: Matukio 25 makuu katika video hii
+                    - img [ref=e441]
+              - generic [ref=e449]:
+                - 'button "Playwright TypeScript #3 Chapter01 Introduction | Playwright ... ya Testers Talk kwenye YouTube. Cheza kwenye Google. 0:53" [ref=e450] [cursor=pointer]':
+                  - generic [ref=e451]:
+                    - img [ref=e457]
+                    - generic [ref=e460]:
+                      - generic [ref=e461]: 0:53
+                      - img [ref=e464]
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - text: YouTube
+                                - generic: · Testers Talk
+                      - button "Kuhusu tokeo hili" [ref=e466] [cursor=pointer]:
+                        - img [ref=e469]
+                - 'link "Playwright TypeScript #3 Chapter01 Introduction | Playwright ... YouTube Testers Talk 7 Mac 2025" [ref=e472] [cursor=pointer]':
+                  - /url: https://www.youtube.com/watch?v=2BTgHb1Pybg
+                  - 'heading "Playwright TypeScript #3 Chapter01 Introduction | Playwright ... YouTube Testers Talk 7 Mac 2025" [level=3] [ref=e473]':
+                    - generic [ref=e476]: "Playwright TypeScript #3 Chapter01 Introduction | Playwright ..."
+                    - generic [ref=e480]:
+                      - generic [ref=e481]:
+                        - text: YouTube
+                        - generic [ref=e482]: · Testers Talk
+                      - generic [ref=e483]: 7 Mac 2025
+              - generic [ref=e490]:
+                - 'button "Playwright TypeScript #1 Full Course Overview | Playwright ... ya Testers Talk kwenye YouTube. Cheza kwenye Google. 1:15" [ref=e491] [cursor=pointer]':
+                  - generic [ref=e492]:
+                    - img [ref=e498]
+                    - generic [ref=e501]:
+                      - generic [ref=e502]: 1:15
+                      - img [ref=e505]
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - text: YouTube
+                                - generic: · Testers Talk
+                      - button "Kuhusu tokeo hili" [ref=e507] [cursor=pointer]:
+                        - img [ref=e510]
+                - 'link "Playwright TypeScript #1 Full Course Overview | Playwright ... YouTube Testers Talk 3 Mac 2025" [ref=e513] [cursor=pointer]':
+                  - /url: https://www.youtube.com/watch?v=k4EsUFlrZqo
+                  - 'heading "Playwright TypeScript #1 Full Course Overview | Playwright ... YouTube Testers Talk 3 Mac 2025" [level=3] [ref=e514]':
+                    - generic [ref=e517]: "Playwright TypeScript #1 Full Course Overview | Playwright ..."
+                    - generic [ref=e521]:
+                      - generic [ref=e522]:
+                        - text: YouTube
+                        - generic [ref=e523]: · Testers Talk
+                      - generic [ref=e524]: 3 Mac 2025
+            - link "Tazama video zote" [ref=e527] [cursor=pointer]:
+              - /url: /search?sca_esv=bdbe2dd8fffd653b&udm=7&q=playwright+by+Testers+Talk&sa=X&ved=2ahUKEwjInofqrqiQAxWkA7kGHSifDSQQ8ccDKAJ6BAgaEAQ
+              - separator [ref=e528]
+              - generic [ref=e529]:
+                - generic [ref=e530]: Angalia yote
+                - img [ref=e532]
+          - generic [ref=e537]:
+            - generic [ref=e540]:
+              - link "Playwright by Testers Talk YouTube · Testers Talk Zaidi ya elfu 26.5 wanafuatilia" [ref=e542] [cursor=pointer]:
+                - /url: https://www.youtube.com/playlist?list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM
+                - heading "Playwright by Testers Talk" [level=3] [ref=e543]
+                - generic [ref=e548]:
+                  - generic [ref=e550]: YouTube · Testers Talk
+                  - generic [ref=e552]: Zaidi ya elfu 26.5 wanafuatilia
+              - button "Kuhusu matokeo haya yanayohusiana na YouTube" [ref=e553] [cursor=pointer]:
+                - img [ref=e556]
+            - generic [ref=e560]:
+              - emphasis [ref=e561]: Playwright by Testers Talk
+              - text: "✓ · #1 Playwright Tutorial Full Course 2024 | Playwright Testing Tutorial · #2 Playwright API Testing Tutorial Crash Course 2024."
+            - link "playwright by Testers Talk kutoka www.youtube.com" [ref=e564] [cursor=pointer]:
+              - /url: https://www.youtube.com/playlist?list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM
+              - img "playwright by Testers Talk kutoka www.youtube.com" [ref=e566]
+          - generic [ref=e570]:
+            - generic [ref=e573]:
+              - link "Testers Talk YouTube · Testers Talk Zaidi ya elfu 26.5 wanafuatilia" [ref=e575] [cursor=pointer]:
+                - /url: https://www.youtube.com/@testerstalk
+                - heading "Testers Talk" [level=3] [ref=e576]
+                - generic [ref=e581]:
+                  - generic [ref=e583]: YouTube · Testers Talk
+                  - generic [ref=e585]: Zaidi ya elfu 26.5 wanafuatilia
+              - button "Kuhusu matokeo haya yanayohusiana na YouTube" [ref=e586] [cursor=pointer]:
+                - img [ref=e589]
+            - generic [ref=e593]:
+              - text: Full Course Tutorials ·
+              - emphasis [ref=e594]: Playwright TypeScript by Testers Talk
+              - text: ✓ · Playwright JavaScript by Testers Talk☑️ · Playwright API Testing by Testers Talk☑️.
+          - generic [ref=e598]:
+            - generic [ref=e601]:
+              - link "Playwright TypeScript Full Course by Testers Talk | PDF Scribd https://www.scribd.com › Playwri..." [ref=e603] [cursor=pointer]:
+                - /url: https://www.scribd.com/document/861225550/Playwright-TypeScript-Full-Course-by-Testers-Talk
+                - heading "Playwright TypeScript Full Course by Testers Talk | PDF" [level=3] [ref=e604]
+                - generic [ref=e609]:
+                  - generic [ref=e611]: Scribd
+                  - generic [ref=e613]: https://www.scribd.com › Playwri...
+              - generic [ref=e614]:
+                - generic [ref=e615]: ·
+                - link "Tafsiri ukurasa huu" [ref=e616] [cursor=pointer]:
+                  - /url: https://translate.google.com/translate?u=https://www.scribd.com/document/861225550/Playwright-TypeScript-Full-Course-by-Testers-Talk&hl=sw&sl=en&tl=sw&client=search
+              - button "Kuhusu matokeo haya yanayohusiana na Scribd" [ref=e617] [cursor=pointer]:
+                - img [ref=e620]
+            - generic [ref=e624]:
+              - text: The document outlines a comprehensive course on
+              - emphasis [ref=e625]: using Playwright with TypeScript
+              - text: ", covering installation, setup, and various testing techniques."
+          - generic [ref=e629]:
+            - generic [ref=e632]:
+              - link "Playwright Important Commands For Daily Use Medium · Testers Talk Imependwa mara 2 · mwaka 1 uliopita" [ref=e634] [cursor=pointer]:
+                - /url: https://medium.com/@testerstalk/playwright-important-commands-for-daily-use-727a339b288e
+                - heading "Playwright Important Commands For Daily Use" [level=3] [ref=e635]
+                - generic [ref=e640]:
+                  - generic [ref=e642]: Medium · Testers Talk
+                  - generic [ref=e644]: Imependwa mara 2 · mwaka 1 uliopita
+              - button "Kuhusu matokeo haya yanayohusiana na Medium" [ref=e645] [cursor=pointer]:
+                - img [ref=e648]
+            - generic [ref=e652]:
+              - text: In this Playwright Automation Testing Full Course series, We are going look at
+              - emphasis [ref=e653]: important playwright commands
+              - text: which can be used on daily basis.
+          - generic [ref=e657]:
+            - generic [ref=e660]:
+              - link "playwright-testers-talk GitHub https://github.com › topics › playw..." [ref=e662] [cursor=pointer]:
+                - /url: https://github.com/topics/playwright-testers-talk
+                - heading "playwright-testers-talk" [level=3] [ref=e663]
+                - generic [ref=e668]:
+                  - generic [ref=e670]: GitHub
+                  - generic [ref=e672]: https://github.com › topics › playw...
+              - generic [ref=e673]:
+                - generic [ref=e674]: ·
+                - link "Tafsiri ukurasa huu" [ref=e675] [cursor=pointer]:
+                  - /url: https://translate.google.com/translate?u=https://github.com/topics/playwright-testers-talk&hl=sw&sl=en&tl=sw&client=search
+              - button "Kuhusu matokeo haya yanayohusiana na GitHub" [ref=e676] [cursor=pointer]:
+                - img [ref=e679]
+            - generic [ref=e682]:
+              - generic [ref=e683]: 23 Ago 2025 —
+              - generic [ref=e684]:
+                - text: Add a description, image, and links to the
+                - emphasis [ref=e685]: playwright-testers-talk
+                - text: topic page so that developers can more easily learn about it. Curate this ...
+          - generic [ref=e689]:
+            - generic [ref=e692]:
+              - link "API Mocking using Playwright Medium · Testers Talk Kupendwa zaidi ya 60 · mwaka 1 uliopita" [ref=e694] [cursor=pointer]:
+                - /url: https://medium.com/@testerstalk/api-mocking-using-playwright-0cffefbd327c
+                - heading "API Mocking using Playwright" [level=3] [ref=e695]
+                - generic [ref=e700]:
+                  - generic [ref=e702]: Medium · Testers Talk
+                  - generic [ref=e704]: Kupendwa zaidi ya 60 · mwaka 1 uliopita
+              - button "Kuhusu matokeo haya yanayohusiana na Medium" [ref=e705] [cursor=pointer]:
+                - img [ref=e708]
+            - generic [ref=e712]:
+              - emphasis [ref=e713]: API mocking is a technique to simulate the behavior of an API
+              - text: or service without calling actually API. This is extremely beneficial in various ways.
+            - link "playwright by Testers Talk kutoka medium.com" [ref=e716] [cursor=pointer]:
+              - /url: https://medium.com/@testerstalk/api-mocking-using-playwright-0cffefbd327c
+              - img "playwright by Testers Talk kutoka medium.com" [ref=e718]
+          - generic [ref=e722]:
+            - generic [ref=e725]:
+              - link "Testers Talk BakkappaN GitHub https://github.com › BakkappaN" [ref=e727] [cursor=pointer]:
+                - /url: https://github.com/BakkappaN
+                - heading "Testers Talk BakkappaN" [level=3] [ref=e728]
+                - generic [ref=e733]:
+                  - generic [ref=e735]: GitHub
+                  - generic [ref=e737]: https://github.com › BakkappaN
+              - generic [ref=e738]:
+                - generic [ref=e739]: ·
+                - link "Tafsiri ukurasa huu" [ref=e740] [cursor=pointer]:
+                  - /url: https://translate.google.com/translate?u=https://github.com/BakkappaN&hl=sw&sl=en&tl=sw&client=search
+              - button "Kuhusu matokeo haya yanayohusiana na GitHub" [ref=e741] [cursor=pointer]:
+                - img [ref=e744]
+            - generic [ref=e748]:
+              - text: In this
+              - emphasis [ref=e749]: Playwright with TypeScript Tutorial Full Course
+              - text: covered topics from basics to advance level. Playwright with TypeScript Full Course - https://youtube.
+            - link "playwright by Testers Talk kutoka github.com" [ref=e752] [cursor=pointer]:
+              - /url: https://github.com/BakkappaN
+              - img "playwright by Testers Talk kutoka github.com" [ref=e754]
+            - list [ref=e756]:
+              - listitem [ref=e757]:
+                - link "Playwright Tutorial Full Course" [ref=e758] [cursor=pointer]:
+                  - /url: https://github.com/BakkappaN/PlaywrightTutorialFullCourse
+                  - generic [ref=e761]: Playwright Tutorial Full Course
+              - listitem [ref=e762]:
+                - link "Playwright API Testing Tutorial" [ref=e763] [cursor=pointer]:
+                  - /url: https://github.com/BakkappaN/PlaywrightAPITestingTutorial
+                  - generic [ref=e766]: Playwright API Testing Tutorial
+          - generic [ref=e770]:
+            - generic [ref=e771]:
+              - heading "Maswali zaidi" [level=2] [ref=e772]
+              - button "Kuhusu tokeo hili" [ref=e773] [cursor=pointer]:
+                - img [ref=e776]
+            - generic [ref=e778]:
+              - button "What is Playwright in QA testing?" [ref=e784] [cursor=pointer]:
+                - generic [ref=e786]: What is Playwright in QA testing?
+                - img [ref=e789]
+              - button "What is a Playwright used for?" [ref=e798] [cursor=pointer]:
+                - generic [ref=e800]: What is a Playwright used for?
+                - img [ref=e803]
+              - button "How much time will it take to learn Playwright?" [ref=e812] [cursor=pointer]:
+                - generic [ref=e814]: How much time will it take to learn Playwright?
+                - img [ref=e817]
+              - button "How to run a Playwright test step by step?" [ref=e826] [cursor=pointer]:
+                - generic [ref=e828]: How to run a Playwright test step by step?
+                - img [ref=e831]
+            - group [ref=e837]:
+              - button "Maoni" [ref=e838] [cursor=pointer]:
+                - generic [ref=e840]: Maoni
+          - generic [ref=e844]:
+            - heading "Picha" [level=2] [ref=e848]
+            - generic [ref=e852]:
+              - generic [ref=e856]:
+                - 'link "Playwright TypeScript #3 Chapter01 Introduction | Playwright ... YouTube" [ref=e857] [cursor=pointer]':
+                  - /url: https://www.youtube.com/watch?v=2BTgHb1Pybg
+                - 'button "Playwright TypeScript #3 Chapter01 Introduction | Playwright ..." [ref=e859] [cursor=pointer]':
+                  - 'img "Playwright TypeScript #3 Chapter01 Introduction | Playwright ..." [ref=e861]'
+                - generic [ref=e863]:
+                  - generic [ref=e865]: "Playwright TypeScript #3 Chapter01 Introduction | Playwright ..."
+                  - generic [ref=e866]:
+                    - generic [ref=e873]: YouTube
+                    - button "Kuhusu tokeo hili" [ref=e876] [cursor=pointer]:
+                      - img [ref=e879]
+              - generic [ref=e884]:
+                - link "API Mocking using Playwright. What is API Mocking? | by ... Medium" [ref=e885] [cursor=pointer]:
+                  - /url: https://medium.com/@testerstalk/api-mocking-using-playwright-0cffefbd327c
+                - button "API Mocking using Playwright. What is API Mocking? | by ..." [ref=e887] [cursor=pointer]:
+                  - img "API Mocking using Playwright. What is API Mocking? | by ..." [ref=e889]
+                - generic [ref=e891]:
+                  - generic [ref=e893]: API Mocking using Playwright. What is API Mocking? | by ...
+                  - generic [ref=e894]:
+                    - generic [ref=e901]: Medium
+                    - button "Kuhusu tokeo hili" [ref=e904] [cursor=pointer]:
+                      - img [ref=e907]
+              - generic [ref=e912]:
+                - link "Playwright by Testers Talk ✓ - YouTube YouTube" [ref=e913] [cursor=pointer]:
+                  - /url: https://www.youtube.com/playlist?list=PLUeDIlio4THEgPRVJRqZRS8uw8hhVNQCM
+                - button "Playwright by Testers Talk ✓ - YouTube" [ref=e915] [cursor=pointer]:
+                  - img "Playwright by Testers Talk ✓ - YouTube" [ref=e917]
+                - generic [ref=e919]:
+                  - generic [ref=e921]: Playwright by Testers Talk ✓ - YouTube
+                  - generic [ref=e922]:
+                    - generic [ref=e929]: YouTube
+                    - button "Kuhusu tokeo hili" [ref=e932] [cursor=pointer]:
+                      - img [ref=e935]
+            - button "Onyesha taswira zaidi" [ref=e938] [cursor=pointer]:
+              - separator [ref=e939]
+              - generic [ref=e940]:
+                - generic [ref=e941]: Onyesha taswira zaidi
+                - img [ref=e943]
+          - generic:
+            - generic:
+              - generic:
+                - region "Matangazo":
+                  - heading "Matangazo" [level=1] [ref=e945]
+      - generic [ref=e947]:
+        - generic [ref=e952]:
+          - heading "Watu pia wanatafuta" [level=2] [ref=e954]
+          - list [ref=e963]:
+            - listitem [ref=e964]:
+              - generic [ref=e967]:
+                - link "Playwright" [ref=e968] [cursor=pointer]:
+                  - /url: /search?sca_esv=bdbe2dd8fffd653b&q=playwright&stick=H4sIAAAAAAAAAAFZAKb_CDEiDS9nLzExeTFsanMyajn6AQCwBACiBQpwbGF5d3JpZ2h02gYZALuiiPkERb8xsTkzsbIW47cH-kf9fWaYqaIIE1dhdHUgcGlhIHdhbmF0YWZ1dGGoCAHUqJXbWQAAAA&sa=X&ved=2ahUKEwjInofqrqiQAxWkA7kGHSifDSQQs9oBKAB6BAgbEAo
+                - heading [level=3] [ref=e973]:
+                  - generic [ref=e974]: Playwright
+            - listitem [ref=e975]:
+              - generic [ref=e978]:
+                - link "Visual Studio Code" [ref=e979] [cursor=pointer]:
+                  - /url: /search?sca_esv=bdbe2dd8fffd653b&q=visual+studio+code&stick=H4sIAAAAAAAAAAFfAKD_CDEiCy9tLzAxMzR4d3Jr-gEAsAQAogUSdmlzdWFsIHN0dWRpbyBjb2Rl2gYZALuiiPkERb8xsTkzsbIW47cH-kf9fWaYqaIIE1dhdHUgcGlhIHdhbmF0YWZ1dGGoCAH8aWKKXwAAAA&sa=X&ved=2ahUKEwjInofqrqiQAxWkA7kGHSifDSQQs9oBKAB6BAgbEA8
+                - heading [level=3] [ref=e984]:
+                  - generic [ref=e985]: Visual Studio Code
+            - listitem [ref=e986]:
+              - generic [ref=e989]:
+                - link "Node.js" [ref=e990] [cursor=pointer]:
+                  - /url: /search?sca_esv=bdbe2dd8fffd653b&q=Node.js&stick=H4sIAAAAAAAAAAFTAKz_CDEiCi9tLzBiYnhmODn6AQCwBACiBQdOb2RlLmpz2gYZALuiiPkERb8xsTkzsbIW47cH-kf9fWaYqaIIE1dhdHUgcGlhIHdhbmF0YWZ1dGGoCAFZCuyMUwAAAA&sa=X&ved=2ahUKEwjInofqrqiQAxWkA7kGHSifDSQQs9oBKAB6BAgbEBQ
+                - heading [level=3] [ref=e995]:
+                  - generic [ref=e996]: Node.js
+            - listitem [ref=e997]:
+              - generic [ref=e1000]:
+                - link "Cypress" [ref=e1001] [cursor=pointer]:
+                  - /url: /search?sca_esv=bdbe2dd8fffd653b&q=Cypress&stick=H4sIAAAAAAAAAAFWAKn_CDEiDS9nLzExc2R3bl85dzL6AQCwBACiBQdDeXByZXNz2gYZALuiiPkERb8xsTkzsbIW47cH-kf9fWaYqaIIE1dhdHUgcGlhIHdhbmF0YWZ1dGGoCAG1WD6FVgAAAA&sa=X&ved=2ahUKEwjInofqrqiQAxWkA7kGHSifDSQQs9oBKAB6BAgbEBk
+                - heading [level=3] [ref=e1006]:
+                  - generic [ref=e1007]: Cypress
+            - listitem [ref=e1008]:
+              - generic [ref=e1011]:
+                - link "Selenium" [ref=e1012] [cursor=pointer]:
+                  - /url: /search?sca_esv=bdbe2dd8fffd653b&q=selenium&stick=H4sIAAAAAAAAAAFTAKz_CDEiCS9tLzBjODI4dvoBALAEAKIFCHNlbGVuaXVt2gYZALuiiPkERb8xsTkzsbIW47cH-kf9fWaYqaIIE1dhdHUgcGlhIHdhbmF0YWZ1dGGoCAHH889ZUwAAAA&sa=X&ved=2ahUKEwjInofqrqiQAxWkA7kGHSifDSQQs9oBKAB6BAgbEB4
+                - heading [level=3] [ref=e1017]:
+                  - generic [ref=e1018]: Selenium
+            - listitem [ref=e1019]:
+              - generic [ref=e1022]:
+                - link "Appium" [ref=e1023] [cursor=pointer]:
+                  - /url: /search?sca_esv=bdbe2dd8fffd653b&q=Appium&stick=H4sIAAAAAAAAAAFVAKr_CDEiDS9nLzExYzU5NDFyejH6AQCwBACiBQZBcHBpdW3aBhkAu6KI-QRFvzGxOTOxshbjtwf6R_19ZpipoggTV2F0dSBwaWEgd2FuYXRhZnV0YagIAZwlQgFVAAAA&sa=X&ved=2ahUKEwjInofqrqiQAxWkA7kGHSifDSQQs9oBKAB6BAgbECM
+                - heading [level=3] [ref=e1028]:
+                  - generic [ref=e1029]: Appium
+          - group [ref=e1034]:
+            - button "Maoni" [ref=e1035] [cursor=pointer]:
+              - generic [ref=e1037]: Maoni
+          - generic [ref=e1040]:
+            - generic [ref=e1041]:
+              - link "Playwright tutorial W3Schools" [ref=e1045] [cursor=pointer]:
+                - /url: /search?sca_esv=bdbe2dd8fffd653b&q=Playwright+tutorial+W3Schools&sa=X&ved=2ahUKEwjInofqrqiQAxWkA7kGHSifDSQQ1QJ6BAhLEAE
+                - generic [ref=e1046]:
+                  - generic [ref=e1051]: Playwright tutorial W3Schools
+                  - img [ref=e1055]
+              - link "Playwright tutorial Guru99" [ref=e1060] [cursor=pointer]:
+                - /url: /search?sca_esv=bdbe2dd8fffd653b&q=Playwright+tutorial+Guru99&sa=X&ved=2ahUKEwjInofqrqiQAxWkA7kGHSifDSQQ1QJ6BAhPEAE
+                - generic [ref=e1061]:
+                  - generic [ref=e1066]: Playwright tutorial Guru99
+                  - img [ref=e1070]
+              - link "Playwright automation Tutorial" [ref=e1075] [cursor=pointer]:
+                - /url: /search?sca_esv=bdbe2dd8fffd653b&q=Playwright+automation+Tutorial&sa=X&ved=2ahUKEwjInofqrqiQAxWkA7kGHSifDSQQ1QJ6BAhMEAE
+                - generic [ref=e1076]:
+                  - generic [ref=e1081]: Playwright automation Tutorial
+                  - img [ref=e1085]
+              - link "Playwright tutorial pdf" [ref=e1090] [cursor=pointer]:
+                - /url: /search?sca_esv=bdbe2dd8fffd653b&q=Playwright+tutorial+pdf&sa=X&ved=2ahUKEwjInofqrqiQAxWkA7kGHSifDSQQ1QJ6BAg3EAE
+                - generic [ref=e1091]:
+                  - generic [ref=e1096]: Playwright tutorial pdf
+                  - img [ref=e1100]
+            - generic [ref=e1102]:
+              - link "Playwright Automation course" [ref=e1106] [cursor=pointer]:
+                - /url: /search?sca_esv=bdbe2dd8fffd653b&q=Playwright+Automation+course&sa=X&ved=2ahUKEwjInofqrqiQAxWkA7kGHSifDSQQ1QJ6BAhOEAE
+                - generic [ref=e1107]:
+                  - generic [ref=e1112]: Playwright Automation course
+                  - img [ref=e1116]
+              - link "Playwright course free" [ref=e1121] [cursor=pointer]:
+                - /url: /search?sca_esv=bdbe2dd8fffd653b&q=Playwright+course+free&sa=X&ved=2ahUKEwjInofqrqiQAxWkA7kGHSifDSQQ1QJ6BAg4EAE
+                - generic [ref=e1122]:
+                  - generic [ref=e1127]: Playwright course free
+                  - img [ref=e1131]
+              - link "Playwright tutorial JavaScript" [ref=e1136] [cursor=pointer]:
+                - /url: /search?sca_esv=bdbe2dd8fffd653b&q=Playwright+tutorial+JavaScript&sa=X&ved=2ahUKEwjInofqrqiQAxWkA7kGHSifDSQQ1QJ6BAhKEAE
+                - generic [ref=e1137]:
+                  - generic [ref=e1142]: Playwright tutorial JavaScript
+                  - img [ref=e1146]
+              - link "Playwright course online" [ref=e1151] [cursor=pointer]:
+                - /url: /search?sca_esv=bdbe2dd8fffd653b&q=Playwright+course+online&sa=X&ved=2ahUKEwjInofqrqiQAxWkA7kGHSifDSQQ1QJ6BAhFEAE
+                - generic [ref=e1152]:
+                  - generic [ref=e1157]: Playwright course online
+                  - img [ref=e1161]
+        - navigation [ref=e1163]:
+          - heading "Usogezaji Kurasa" [level=1] [ref=e1164]
+          - text: "1"
+          - link "Page 2" [ref=e1167] [cursor=pointer]:
+            - /url: /search?q=playwright+by+Testers+Talk&sca_esv=bdbe2dd8fffd653b&ei=fLXwaMjwGaSH5OUPqL62oAI&start=10&sa=N&sstk=Af77f_dDSkPUySZB9r3luLzdRNLpByVl7uyI2SJZpI6MjaXMhS4zWAivdoqbcKLSHVD48cOx0MNLuWlVd9RdeMKYtNOSY3zuXg0Cvw&ved=2ahUKEwjInofqrqiQAxWkA7kGHSifDSQQ8tMDegQIChAE
+            - text: "2"
+          - link "Page 3" [ref=e1169] [cursor=pointer]:
+            - /url: /search?q=playwright+by+Testers+Talk&sca_esv=bdbe2dd8fffd653b&ei=fLXwaMjwGaSH5OUPqL62oAI&start=20&sa=N&sstk=Af77f_dDSkPUySZB9r3luLzdRNLpByVl7uyI2SJZpI6MjaXMhS4zWAivdoqbcKLSHVD48cOx0MNLuWlVd9RdeMKYtNOSY3zuXg0Cvw&ved=2ahUKEwjInofqrqiQAxWkA7kGHSifDSQQ8tMDegQIChAG
+            - text: "3"
+          - link "Page 4" [ref=e1171] [cursor=pointer]:
+            - /url: /search?q=playwright+by+Testers+Talk&sca_esv=bdbe2dd8fffd653b&ei=fLXwaMjwGaSH5OUPqL62oAI&start=30&sa=N&sstk=Af77f_dDSkPUySZB9r3luLzdRNLpByVl7uyI2SJZpI6MjaXMhS4zWAivdoqbcKLSHVD48cOx0MNLuWlVd9RdeMKYtNOSY3zuXg0Cvw&ved=2ahUKEwjInofqrqiQAxWkA7kGHSifDSQQ8tMDegQIChAI
+            - text: "4"
+          - link "Page 5" [ref=e1173] [cursor=pointer]:
+            - /url: /search?q=playwright+by+Testers+Talk&sca_esv=bdbe2dd8fffd653b&ei=fLXwaMjwGaSH5OUPqL62oAI&start=40&sa=N&sstk=Af77f_dDSkPUySZB9r3luLzdRNLpByVl7uyI2SJZpI6MjaXMhS4zWAivdoqbcKLSHVD48cOx0MNLuWlVd9RdeMKYtNOSY3zuXg0Cvw&ved=2ahUKEwjInofqrqiQAxWkA7kGHSifDSQQ8tMDegQIChAK
+            - text: "5"
+          - link "Page 6" [ref=e1175] [cursor=pointer]:
+            - /url: /search?q=playwright+by+Testers+Talk&sca_esv=bdbe2dd8fffd653b&ei=fLXwaMjwGaSH5OUPqL62oAI&start=50&sa=N&sstk=Af77f_dDSkPUySZB9r3luLzdRNLpByVl7uyI2SJZpI6MjaXMhS4zWAivdoqbcKLSHVD48cOx0MNLuWlVd9RdeMKYtNOSY3zuXg0Cvw&ved=2ahUKEwjInofqrqiQAxWkA7kGHSifDSQQ8tMDegQIChAM
+            - text: "6"
+          - link "Page 7" [ref=e1177] [cursor=pointer]:
+            - /url: /search?q=playwright+by+Testers+Talk&sca_esv=bdbe2dd8fffd653b&ei=fLXwaMjwGaSH5OUPqL62oAI&start=60&sa=N&sstk=Af77f_dDSkPUySZB9r3luLzdRNLpByVl7uyI2SJZpI6MjaXMhS4zWAivdoqbcKLSHVD48cOx0MNLuWlVd9RdeMKYtNOSY3zuXg0Cvw&ved=2ahUKEwjInofqrqiQAxWkA7kGHSifDSQQ8tMDegQIChAO
+            - text: "7"
+          - link "Page 8" [ref=e1179] [cursor=pointer]:
+            - /url: /search?q=playwright+by+Testers+Talk&sca_esv=bdbe2dd8fffd653b&ei=fLXwaMjwGaSH5OUPqL62oAI&start=70&sa=N&sstk=Af77f_dDSkPUySZB9r3luLzdRNLpByVl7uyI2SJZpI6MjaXMhS4zWAivdoqbcKLSHVD48cOx0MNLuWlVd9RdeMKYtNOSY3zuXg0Cvw&ved=2ahUKEwjInofqrqiQAxWkA7kGHSifDSQQ8tMDegQIChAQ
+            - text: "8"
+          - link "Page 9" [ref=e1181] [cursor=pointer]:
+            - /url: /search?q=playwright+by+Testers+Talk&sca_esv=bdbe2dd8fffd653b&ei=fLXwaMjwGaSH5OUPqL62oAI&start=80&sa=N&sstk=Af77f_dDSkPUySZB9r3luLzdRNLpByVl7uyI2SJZpI6MjaXMhS4zWAivdoqbcKLSHVD48cOx0MNLuWlVd9RdeMKYtNOSY3zuXg0Cvw&ved=2ahUKEwjInofqrqiQAxWkA7kGHSifDSQQ8tMDegQIChAS
+            - text: "9"
+          - link "Page 10" [ref=e1183] [cursor=pointer]:
+            - /url: /search?q=playwright+by+Testers+Talk&sca_esv=bdbe2dd8fffd653b&ei=fLXwaMjwGaSH5OUPqL62oAI&start=90&sa=N&sstk=Af77f_dDSkPUySZB9r3luLzdRNLpByVl7uyI2SJZpI6MjaXMhS4zWAivdoqbcKLSHVD48cOx0MNLuWlVd9RdeMKYtNOSY3zuXg0Cvw&ved=2ahUKEwjInofqrqiQAxWkA7kGHSifDSQQ8tMDegQIChAU
+            - text: "10"
+          - heading "Mbele" [level=3] [ref=e1185]:
+            - link "Mbele" [ref=e1186] [cursor=pointer]:
+              - /url: /search?q=playwright+by+Testers+Talk&sca_esv=bdbe2dd8fffd653b&ei=fLXwaMjwGaSH5OUPqL62oAI&start=10&sa=N&sstk=Af77f_dDSkPUySZB9r3luLzdRNLpByVl7uyI2SJZpI6MjaXMhS4zWAivdoqbcKLSHVD48cOx0MNLuWlVd9RdeMKYtNOSY3zuXg0Cvw&ved=2ahUKEwjInofqrqiQAxWkA7kGHSifDSQQ8NMDegQIChAW
+              - generic [ref=e1188]: Mbele
+      - navigation
+    - contentinfo [ref=e1189]:
+      - heading "Viungo vya Kijachini" [level=1] [ref=e1190]
+      - generic [ref=e1194]:
+        - generic [ref=e1196]:
+          - text: Kenya
+          - generic [ref=e1198]:
+            - button "Kiambu - Kutoka kwenye Anwani yako ya IP" [ref=e1200] [cursor=pointer]:
+              - generic [ref=e1201]: Kiambu
+              - generic [ref=e1203]:
+                - text: "-"
+                - generic [ref=e1204]: Kutoka kwenye Anwani yako ya IP
+            - text: "-"
+            - button "Sasisha eneo" [ref=e1206] [cursor=pointer]: Sasisha eneo
+        - generic [ref=e1209]:
+          - link "Usaidizi" [ref=e1210] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=sw-KE&fg=1
+          - link "Tuma maoni" [ref=e1211] [cursor=pointer]:
+            - /url: "#"
+          - link "Faragha" [ref=e1212] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=sw-KE&fg=1
+          - link "Masharti" [ref=e1213] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=sw-KE&fg=1
+```

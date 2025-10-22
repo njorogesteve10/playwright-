@@ -1,0 +1,30 @@
+POST API Response: {
+  "bookingid": 1134,
+  "booking": {
+    "firstname": "Kenton",
+    "lastname": "Kunze",
+    "totalprice": 2241,
+    "depositpaid": true,
+    "bookingdates": {
+      "checkin": "2025-01-25",
+      "checkout": "2025-01-27"
+    },
+    "additionalneeds": "breakfast"
+  }
+}
+Your token is: {"token":"c5ed51482a0d4bd"}
+Sending PATCH data: {
+  "firstname": "UpdatedFirst",
+  "lastname": "UpdatedLast"
+}
+PATCH API Response: {
+  "firstname": "UpdatedFirst",
+  "lastname": "UpdatedLast",
+  "totalprice": 2241,
+  "depositpaid": true,
+  "bookingdates": {
+    "checkin": "2025-01-25",
+    "checkout": "2025-01-27"
+  },
+  "additionalneeds": "breakfast"
+}

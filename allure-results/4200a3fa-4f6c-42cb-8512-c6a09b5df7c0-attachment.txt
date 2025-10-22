@@ -1,0 +1,14 @@
+POST API Response : {
+  "bookingid": 4692,
+  "booking": {
+    "firstname": "Hipolito",
+    "lastname": "Hoppe",
+    "totalprice": 3781,
+    "depositpaid": true,
+    "bookingdates": {
+      "checkin": "2025-01-25",
+      "checkout": "2025-01-27"
+    },
+    "additionalneeds": "breakfast"
+  }
+}

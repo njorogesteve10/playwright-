@@ -1,0 +1,14 @@
+API response: {
+  "bookingid": 10399,
+  "booking": {
+    "firstname": "testers",
+    "lastname": "kazannaaaa",
+    "totalprice": 1000,
+    "depositpaid": true,
+    "bookingdates": {
+      "checkin": "2025-01-15",
+      "checkout": "2025-01-17"
+    },
+    "additionalneeds": "breakfast"
+  }
+}
